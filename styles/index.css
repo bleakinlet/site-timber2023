@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(18, 39, 100);
+    background-image: url("../images/sun.png");
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:97vh;
+}
+
+.block {   
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 23, 75);
+    margin: 0;
+    margin-right: 50%;
+    width:950px;
+    min-width: 950px;
+    color: white;
+    padding: 10px;
+    z-index:20;
+}
+
+.block h1 {
+ font-size: 50px;
+    margin: 0;
+}
+
+.block h2 {
+
+   margin: 0;
+   font-size: 50px; 
+}
+
+a {
+    color: rgb(106, 237, 206);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(106, 237, 206);
+  
+}
+
+#snow {
+    position: fixed;
+    bottom: -10px;
+    z-index: 0;
+}

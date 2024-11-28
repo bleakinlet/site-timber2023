@@ -1,0 +1,24 @@
+.zolar-title {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 60px;
+}
+
+.zolar-zighway {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(19, 22, 53);
+    color: rgb(193, 223, 249);
+
+    font-size: 18px;
+}
+
+#zh-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

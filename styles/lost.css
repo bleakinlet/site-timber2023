@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    background-image: url('../images/snow.gif');
+    background-size: 800px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+#body-container {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.lost-title {
+    background-color: white;
+    font-size: 70px;
+    font-weight: 8000;
+    padding: 30px;
+    width: 520px;
+}
+
+.lost-title p {
+    font-size: 30px;
+}
+
+.go-back {
+    background-color: white;
+    font-size: 50px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.go-back a {
+    color: black;
+    text-decoration: none;
+}
+
+.go-back a:hover {
+    color:white;
+    background-color: black;
+}
+
+.go-forward {
+    margin-top: 243px;
+    background-color: white;
+    animation: fadeIn 20s;
+    color: black;
+    padding: 2px;
+    
+}
+
+.go-forward a {
+    text-decoration: none;
+    color: black;
+}
+
+.go-forward:hover {
+    cursor: default;
+}
+
+.go-forward a:hover {
+    cursor: default;
+    color: white;
+    background-color: black;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0; }
+    50% {opacity: 0; }
+    100% { opacity: 1; }
+}
+

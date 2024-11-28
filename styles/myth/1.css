@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url(../../images/myth/lost.png);
+    background-position: -40px;
+    background-size: 2000px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.console {
+    position: absolute;
+    padding: 5px;
+    background-color: orange;
+}
+
+.console-link a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: 10;
+}

@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    overflow: hidden;
+    cursor: url("https://files.catbox.moe/n8u516.cur"), auto;
+    background-image: url("../images/repeat.png");
+    background-color: rgb(30, 29, 73);
+    background-size: 1000px;
+}
+
+.nav-indent a {
+    color: rgb(108, 167, 219);
+    text-decoration: none;
+}
+
+.nav-indent a:hover {
+    background-color: rgb(108, 167, 219);
+    color: black;
+}
+
+#index-link {
+    color: white;
+}
+
+#index-link a:visited {
+    color: white;
+}
+
+#index-link a {
+    text-decoration: none;
+}
+
+#index-link a:hover {
+    color: black;
+    background-color: white;
+}
+
+#web-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../images/snow.gif");
+    
+    background-size: 1000px;
+    height: 100vh;
+
+    position: relative;
+}
+
+#body-container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+
+
+    width: 1000px;
+    min-width: 1000px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-image: url("../images/back.png");
+    background-position: -75px 200px;
+    width: 100%;
+    background-size: 110%;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(30, 29, 73);
+}
+
+#logo img {
+    width: 310px;
+}
+
+
+
+#logo-top {
+    display: flex;
+    flex-direction: row;
+
+    height: 100px;
+}
+
+#body {
+    display: flex;
+    background-color: rgb(27, 27, 28);
+    height: 800px;
+}
+
+#nav-bar {
+    background-image: url(../images/winters.png);
+    background-position: -10px;
+    width: 150px;
+    border: 5px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: rgb(30, 29, 73);
+    
+}
+
+.nav-block {
+    background-color: rgb(49, 68, 175);
+    margin-top: 10px;
+    font-size: 23px;
+    padding: 3px;
+    color: rgb(255, 255, 255)
+}
+
+.nav-link {
+    display: flex;
+    font-size: 18px;
+    background-color: rgb(30, 29, 73);
+    color: rgb(108, 167, 219);
+}
+
+.nav-text {
+    margin-right: 10px;
+}
+
+@media (max-width: 1250px) {
+    #body-container {
+        width: 650px;
+        min-width: 650px ;
+    }
+
+    #logo {
+        
+        background-size: 150%;
+    }
+
+    .yarn-box {
+        width: 450px;
+    }
+}
+
+.body-zone {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    background-color: rgb(30, 29, 73);
+    width: 100%;
+    border: 5px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-color: rgb(30, 29, 73); 
+}
+
+.yarn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.body-box {
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-color: rgb(29, 29, 55) rgb(25, 18, 45);
+}
+
+.body-box h1 {
+    color: rgb(122, 197, 230);
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#snow {
+    position: fixed;
+    bottom: -10px;
+    z-index: 0;
+}
+
+.news-box {
+    padding: 20px;
+    background-color: rgb(12, 12, 42); 
+}
+
+.banners {
+    margin-top: 10px;
+}
+
+.news-title {
+    padding: 10px;
+    background-image: url("../images/back.png");
+    background-position: -10px -44px;
+    background-size: 140%;
+    background-color: rgb(10, 10, 36); 
+    font-size: 40px;
+    color: rgb(114, 114, 240);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.news-title img {
+    width: 200px;
+}
+
+.news-text {
+    margin-top: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: rgb(23, 23, 37) rgb(14, 14, 33);
+    height: 200px;
+}
+
+h2 {
+    color: rgb(114, 114, 240);
+    margin: 0;
+
+}
+
+p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(144, 158, 239);
+}

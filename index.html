@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> -timbertoast entrance- </title>
+        <link rel="icon" href="images/iconno.png">
+        <link rel="stylesheet" href="styles/index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet"> 
+        <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script> 
+
+        <meta content="TIMBER TOAST WEBZONE" property="og:title" />
+        <meta content="home of all things timber and toast" property="og:description" />
+        <meta content="https://timbertoast.neocities.org/" property="og:url" />
+        <meta content="https://cdn.discordapp.com/attachments/975863522355453984/1122950299867418766/iconnow.png"
+            property="og:image" />
+        <meta content="#312775" data-react-helmet="true" name="theme-color" />
+    </head>
+    <body>
+        <div class="web-container">
+            <div class="body-container">
+                <div class="block">
+                    <h1>timbertoast.neocities.org</h1> 
+                </div>
+                <div class="block">
+                    <p>This website has a snowy background gif which might hurt your eyes. This page is primarily used to keep your music playing while you go through it.</p>
+                </div>
+                <div class="block">
+                    <a href="https://timbertoast.neocities.org/html/home"><h2>ENTER</h2></a>
+                    <p style="font-size: 25px; margin-left: 20px; margin-right: 20px;;"> OR </p>
+                    <a href="https://timbertoast.neocities.org/html/home" target="_blank"><h2>ENTER (new tab)</h2></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="snow">
+            <img src="images/snow.png">
+        </div>
+        <div style="width:0; height:0; position:absolute; top: 70%; left: 82%; z-index: 2;">
+            <div id="winamp-container"></div>
+            <script>
+        const Winamp = window.Webamp;
+        // All configuration options are optional.
+        const webamp = new Webamp({
+            // Optional.
+            initialTracks: [
+                {
+                    metaData: {
+                        artist: "kitchen",
+                        title: "world is big",
+                    },
+                    url: "https://files.catbox.moe/1161v1.mp3",
+                },
+                {
+                    metaData: {
+                        artist: "alex g",
+                        title: "i was here",
+                    },
+                    url: "https://files.catbox.moe/dvjtx0.mp3",
+                },
+                {
+                    metaData: {
+                        artist: "nonexdog",
+                        title: "scheria",
+                    },
+                    url: "https://files.catbox.moe/vcvnqp.mp3",
+                },
+                {
+                    metaData: {
+                        artist: "baltyk",
+                        title: "pillowsong",
+                    },
+                    url: "https://files.catbox.moe/w02vf8.mp3",
+                },
+                {
+                    metaData: {
+                        artist: "melaina kol",
+                        title: "death",
+                    },
+                    url: "https://files.catbox.moe/ydzunl.mp3",
+                },
+            ],
+            initialSkin: {
+                url: "https://files.catbox.moe/s3z4zg.wsz"
+            }, 
+        });
+        webamp.renderWhenReady(document.getElementById('winamp-container'));
+        </script>
+    </body>
+</html>

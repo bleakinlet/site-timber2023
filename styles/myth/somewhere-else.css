@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: red;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  margin-top: 50px;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.notes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.circle a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  z-index: 10;
+}
+

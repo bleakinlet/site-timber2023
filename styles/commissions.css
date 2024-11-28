@@ -1,0 +1,56 @@
+.commissions-body,
+.commissions-status,
+.commissions-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.commissions-title {
+    background-color: black;
+    font-size: 50px;
+
+
+}
+
+.commissions-status {
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    padding: 2px;
+}
+
+.commissions-body {
+    padding: 20px;
+    background-color: rgb(17, 17, 41);
+    font-size: 20px;
+}
+
+.commissions-body p {
+    color: rgb(162, 179, 253);
+}
+
+.art-zone {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(17, 17, 41);
+    height: 200px;
+    min-height: 200px;
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 750px;
+}
+
+.art-zone img {
+    height: 200px;
+}
+
+@media (max-width: 1250px) {
+    .art-zone {
+        width: 400px;
+    }
+}

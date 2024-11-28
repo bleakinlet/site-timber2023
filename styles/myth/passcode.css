@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: orange;
+}
+
+.title-box {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  overflow: none;
+  margin-bottom: 20px;
+
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  margin: 20px;
+  width: 450px;
+  min-width: 450px;
+  padding:10px;
+  height: 610px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.button {
+  height: 150px;
+}
+
+.button img {
+  width: 150px;
+  cursor: pointer;
+}
+
+.button:active img {
+  margin-top: 10px;
+}
+
+.passcode-zone {
+  display: flex;
+  justify-content: center;
+
+}
+
+.passcode {
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+  height: 60px;
+
+  font-size: 40px;
+  min-width: 200px;
+  width: 200px;
+
+  font-weight: bold;
+}
